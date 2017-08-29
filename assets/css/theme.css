@@ -1,4 +1,9 @@
 body {
-  font-family: Lato;
-  background-image:url("../../background.png")
+  background-image:url("../../background.png") fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Open Sans, Arial, sans-serif;
+  background-size: cover;
+  transition: 0.1s background ease;
+  margin-bottom: 50px;
 }
